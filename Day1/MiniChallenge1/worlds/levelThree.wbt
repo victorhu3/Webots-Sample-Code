@@ -1,0 +1,292 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+  basicTimeStep 16
+}
+Viewpoint {
+  orientation -0.9994730577383945 0.02622827916461454 0.019122871832621284 0.5208086252924948
+  position 0.07926814045462455 8.162223728092123 12.755911493210096
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 8 8
+  floorAppearance Parquetry {
+    colorOverride 0.9 0.9 0.8
+  }
+}
+Robot {
+  name "supervisor"
+  controller "supervisor"
+  supervisor TRUE
+}
+DEF ROBOT Pioneer3dx {
+  translation -0.0479089 0.1075 2.55
+}
+DEF WAYPOINTS Group {
+  children [
+    Solid {
+      translation -0.01152 -0.07 1.15128
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.3 0.3 0.9
+              transparency 0.5
+            }
+          }
+          geometry Cylinder {
+            height 0.3
+            radius 0.3
+          }
+        }
+        Solid {
+          translation 0 1.66 0
+          scale 3 3 3
+          children [
+            Shape {
+              appearance Appearance {
+                material Material {
+                }
+                texture ImageTexture {
+                  url [
+                    "./textures/1.jpg"
+                  ]
+                }
+              }
+              geometry Box {
+                size 0.1 0.1 0.1
+              }
+              castShadows FALSE
+            }
+          ]
+          name "solid(6)"
+        }
+      ]
+      name "way0"
+      locked TRUE
+    }
+    Solid {
+      translation 2.05848 -0.07 1.14128
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.9 0.2 0.3
+              transparency 0.5
+            }
+          }
+          geometry Cylinder {
+            height 0.3
+            radius 0.3
+          }
+        }
+        Solid {
+          translation 0 1.66 0
+          scale 3 3 3
+          children [
+            Shape {
+              appearance Appearance {
+                material Material {
+                }
+                texture ImageTexture {
+                  url [
+                    "./textures/2.jpg"
+                  ]
+                }
+              }
+              geometry Box {
+                size 0.1 0.1 0.1
+              }
+              castShadows FALSE
+            }
+          ]
+          name "solid(1)"
+        }
+      ]
+      name "way1"
+      locked TRUE
+    }
+    Solid {
+      translation 2.02848 -0.07 2.63128
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.3 0.3 0.9
+              transparency 0.5
+            }
+          }
+          geometry Cylinder {
+            height 0.3
+            radius 0.3
+          }
+        }
+        Solid {
+          translation 0 1.66 0
+          scale 3 3 3
+          children [
+            Shape {
+              appearance Appearance {
+                material Material {
+                }
+                texture ImageTexture {
+                  url [
+                    "./textures/3.png"
+                  ]
+                }
+              }
+              geometry Box {
+                size 0.1 0.1 0.1
+              }
+              castShadows FALSE
+            }
+          ]
+          name "solid(2)"
+        }
+      ]
+      name "way2"
+      locked TRUE
+    }
+    Solid {
+      translation 2.02848 -0.07 -1.87872
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.3 0.3 0.9
+              transparency 0.5
+            }
+          }
+          geometry Cylinder {
+            height 0.3
+            radius 0.3
+          }
+        }
+        Solid {
+          translation 0 1.66 0
+          scale 3 3 3
+          children [
+            Shape {
+              appearance Appearance {
+                material Material {
+                }
+                texture ImageTexture {
+                  url [
+                    "./textures/4.jpg"
+                  ]
+                }
+              }
+              geometry Box {
+                size 0.1 0.1 0.1
+              }
+              castShadows FALSE
+            }
+          ]
+          name "solid(3)"
+        }
+      ]
+      name "way3"
+      locked TRUE
+    }
+    Solid {
+      translation -3.07152 -0.07 -1.90872
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.3 0.3 0.9
+              transparency 0.5
+            }
+          }
+          geometry Cylinder {
+            height 0.3
+            radius 0.3
+          }
+        }
+        Solid {
+          translation 0 1.66 0
+          scale 3 3 3
+          children [
+            Shape {
+              appearance Appearance {
+                material Material {
+                }
+                texture ImageTexture {
+                  url [
+                    "./textures/5.jpg"
+                  ]
+                }
+              }
+              geometry Box {
+                size 0.1 0.1 0.1
+              }
+              castShadows FALSE
+            }
+          ]
+          name "solid(4)"
+        }
+      ]
+      name "way4"
+      locked TRUE
+    }
+    Solid {
+      translation -1.07152 -0.07 0.09128
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.3 0.3 0.9
+              transparency 0.5
+            }
+          }
+          geometry Cylinder {
+            height 0.3
+            radius 0.3
+          }
+        }
+        Solid {
+          translation 0 1.66 0
+          scale 3 3 3
+          children [
+            Shape {
+              appearance Appearance {
+                material Material {
+                }
+                texture ImageTexture {
+                  url [
+                    "./textures/6.jpg"
+                  ]
+                }
+              }
+              geometry Box {
+                size 0.1 0.1 0.1
+              }
+              castShadows FALSE
+            }
+          ]
+          name "solid(5)"
+        }
+      ]
+      name "way4(1)"
+      locked TRUE
+    }
+  ]
+}
+Solid {
+  translation -0.06895 0 2.56929
+  scale 15.1878 15.1878 15.1878
+  children [
+    Shape {
+      appearance BrushedAluminium {
+      }
+      geometry Box {
+        size 0.1 0.001 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.1 0.001 0.1
+  }
+}
