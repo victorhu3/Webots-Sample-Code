@@ -1,4 +1,4 @@
-# Erebus-Sample-Code
+# Webots-Sample-Code
 Sample code and worlds for the RCJ rescue simulation game in Webots.
 
 Each daily webinar will have its own folder for sample code and worlds.
