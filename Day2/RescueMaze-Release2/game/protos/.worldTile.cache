@@ -1,0 +1,11 @@
+Webots Proto Cache File version 1.4
+protoFileHash: 223d69ede7d9654cc10533860de8af2f
+containsDevices: 0
+baseType: Transform
+slotType: 
+parameters: xPos,zPos,floor,topWall,rightWall,bottomWall,leftWall,topLeftCorner,bottomLeftCorner,bottomRightCorner,topRightCorner,topExternal,rightExternal,bottomExternal,leftExternal,notch,notchRotation,start,trap,checkpoint,swamp,width,height,id
+tags: 
+license: 
+licenseUrl: 
+documentationUrl: 
+info: 
