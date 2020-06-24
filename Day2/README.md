@@ -19,8 +19,12 @@ Sample code is now stored inside of the Webots project itself in the **RescueMaz
 We have 4 challenges that you can try with this world, each progressively harder:
 
 Level 1: Wall tracing until robot falls inside the pit
+
 Level 2: Detect pit, print out in console, and immediately back out
+
 Level 3: Head back to green after encountering pit and blink the LEDs - look up LEDs in the Webots documentation
+
 Level 4: Report any visual or heated victims that you see
+
 
 Here is a diagram of the distance sensors on the robot: https://github.com/Shadow149/RescueMaze/raw/master/docs/images/camera.PNG?raw=true
