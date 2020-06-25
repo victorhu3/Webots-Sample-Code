@@ -34,7 +34,6 @@ int main(int argc, char **argv) {
 
   int timeStep = (int)robot->getBasicTimeStep();
   double victimColor[] = { 1,1,1 };   // The recognition colors of victims are (1, 1, 1)
-
   cam->recognitionEnable(timeStep);   // Enables camera to detect recognition colors
 
   while (robot->step(timeStep) != -1) {
@@ -54,7 +53,7 @@ int main(int argc, char **argv) {
 
         cout << "See victim" << endl;
 
-        // Get the victim's position
+        // Get the victim's position relative to robot
         const double* vicPos = objects[i].position;
         cout << "Victim Position: (" << setprecision(2) << vicPos[0] << ", " 
                 << vicPos[1] << ", " << vicPos[2] << ")" << endl;
