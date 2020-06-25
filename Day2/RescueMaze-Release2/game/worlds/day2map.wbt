@@ -3,8 +3,8 @@ WorldInfo {
   basicTimeStep 16
 }
 Viewpoint {
-  orientation 0.3304124542797706 -0.9228547947693283 -0.1979056285912035 5.131789385606789
-  position 2.7567569781454764 1.6228363143730908 1.0668168930250541
+  orientation 0.3585226860252363 -0.857540965877645 -0.3688969713170409 4.531175933043927
+  position 1.950226100049523 2.2682777658528126 -0.2911185594563677
 }
 TexturedBackground {
 }
@@ -701,7 +701,8 @@ DEF DEBRIS Group {
 DEF HUMANGROUP Group {
   children [
     HeatVictim {
-      translation -0.46 0 0.44
+      translation -0.46 0 0.435
+      rotation 0 1 0 3.14159
     }
     Victim {
       translation 0.0125 0 -0.3
@@ -802,7 +803,7 @@ DEF ROBOT1 E-puck-custom {
   translation 0.752422 -0.075 -0.357998
   rotation 0 1 0 1.5708
   name "e-puck 1"
-  controller "robot1Controller"
+  controller "sensorSample"
   camera_fieldOfView 0.9
   camera_width 128
   camera_height 128
